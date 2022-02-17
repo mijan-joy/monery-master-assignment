@@ -12,11 +12,11 @@ calculateBtn.addEventListener('click', function(){
   totalToDisplay.innerText = total;
   const balance = document.getElementById('balance');
   balance.innerText = parseInt(income.value) - total;
+  
 });
 
 // Balance  percet
 const saveBtn = document.getElementById('saving');
-
 saveBtn.addEventListener('click', function(){
   const income = document.getElementById('income-input');  
   const percent = document.getElementById('percent-input');

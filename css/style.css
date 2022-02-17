@@ -34,9 +34,11 @@ inset -7px -7px 14px #003a7a;
     border: 1px solid aliceblue;
 }
 footer{
+    color: aliceblue;
     background-color: #292D3E;
 }
 .color-1{
+    color: aliceblue;
     background-color: #003a7a;
 }
 .form-control{
@@ -46,7 +48,7 @@ footer{
 #images{
     align-items: center;
     max-width: 100%;
-  height: auto;
+    height: auto;
 }
 #income-input{
     color: #000;
@@ -63,4 +65,7 @@ footer{
  #item-input-3{
     color: #000;
     font-weight: 700;
+}
+#calculate-btn{
+text-align: center;
 }
